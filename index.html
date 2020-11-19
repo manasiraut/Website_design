@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock Music</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Flamenco">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="row clearfix">
+			<img src="images/logo.jpg" class="logo">
+
+			<ul class="main-nav" id="check-class">
+				<li><a href="#">HOME</a></li>
+				<li><a href="#">ABOUT</a></li>
+				<li><a href="#">ALBUM</a></li>
+				<li><a href="#">BLOG</a></li>
+				<li><a href="#">CONTACT</a></li>
+				<li><a href="#">LOGIN</a></li>
+			</ul>
+			<a href="#" class="mobile-icon" onclick="slideshow()"> <i class="fa fa-bars"></i></a>
+			</div>
+		</nav>
+
+		<div class="main-content-header">
+
+		<h1>WELCOME TO <span class="colorchange">ROCK MUSIC</span> WORLD</h1>
+		<p>All your favorite song are available here!!!</p>
+		<a href="#" class="btn btn-full">SIGN IN HERE</a>
+		<a href="#" class="btn btn-nav">LEARN MORE</a>
+
+	</div>
+
+	</header>
+
+
+	<script type="text/javascript">
+		function slideshow(){
+			var x = document.getElementById('check-class');
+			if (x.style.display === "none") {
+				x.style.display="block";
+			}else{
+				x.style.display="none";
+			}
+
+		}
+	</script>
+
+</body>
+</html>
